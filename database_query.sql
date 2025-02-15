@@ -17,5 +17,6 @@ CREATE TABLE users (
 CREATE TABLE user_type (
     type_num INT AUTO_INCREMENT PRIMARY KEY,
     nickname VARCHAR(255) NOT NULL,
-    role_type INT NOT NULL
+    role_type INT NOT NULL,
+    user_id VARCHAR(45)
 );
